@@ -14,3 +14,5 @@ alert(`the result is '5 * 4 = 20`);
 // question 4 
 // putting '' around the number 
 number = string(number) ;
+// question 5 
+alert (3 && 0 || null , !0);
