@@ -11,3 +11,6 @@ let ageknown = false ;
 alert(2 != 1); // true , the inverse of the result is given
 // question 3
 alert(`the result is '5 * 4 = 20`);
+// question 4 
+// putting '' around the number 
+number = string(number) ;
