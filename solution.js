@@ -19,9 +19,21 @@ alert (3 && 0 || null , !0);
 // question 6 
 function check(num) {
     if (num > 0) {
-        return true
+        return true;
     } else {
-        return false
+        return false;
     }
 
 }
+// question 7
+let i = 1 
+while( i < 11) {
+    alert(i);
+    i ++;
+}
+for ( let i = 1;
+     i < 11 ;
+    i ++ ) {
+    alert(i);
+}
+// question 8 
