@@ -41,3 +41,28 @@ let input = parseInt(prompt('input a number',));
 if (input === 5 || input === 13 || input % 3 === 0) {
     alert ('correct')
 }
+// question 9
+let season = prompt('what is your fav season',);
+if (season === 'summer') {
+    alert('hot');
+} else if (season === 'autumn' ) {
+    alert('cool');
+} else if (season === 'spring') {
+    alert( 'warm');
+} else if (season === 'winter') {
+    alert('cold');
+}
+switch (season){
+    case 'summer':
+        alert('hot');
+        break;
+    case 'autumn':
+        alert('cool');
+        break;
+    case 'spring':
+        alert('warm');
+        break;
+    case 'winter':
+        alert('cold');
+        break;
+}
