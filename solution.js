@@ -37,3 +37,7 @@ for ( let i = 1;
     alert(i);
 }
 // question 8 
+let input = parseInt(prompt('input a number',));
+if (input === 5 || input === 13 || input % 3 === 0) {
+    alert ('correct')
+}
