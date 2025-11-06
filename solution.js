@@ -16,3 +16,12 @@ alert(`the result is '5 * 4 = 20`);
 number = string(number) ;
 // question 5 
 alert (3 && 0 || null , !0);
+// question 6 
+function check(num) {
+    if (num > 0) {
+        return true
+    } else {
+        return false
+    }
+
+}
