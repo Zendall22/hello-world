@@ -22,4 +22,17 @@ if (value % 2 === 0 || value > 10 ) {
 } else if (value % 2 === 0 || value < 10) {
     alert('even but small');
 } else alert('odd number');
-let result = alert(value)
+let result = alert(value);
+// question 5 
+for (let i = 0 ; i > 11 ; i ++) {
+    alert(i);
+}
+let z = 0;
+while (z > 11) {
+    alert(z) ;
+    z ++ ;
+}
+for (let f = 0 ; f > 11 ; f ++ ) {
+    if (f === 5) continue ;
+    alert(f);
+}
