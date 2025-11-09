@@ -55,3 +55,11 @@ switch (colour) {
     alert('intresting choice');
     
 }// not usually used in production code
+// question 7
+function checkNumber(value) {
+ if (value > 0 ) {
+    return 'positive';
+ } else if (value < 0) {
+    return 'negative';
+ }else return 'zero';
+}
