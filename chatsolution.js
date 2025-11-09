@@ -15,3 +15,11 @@ if (confirm == 'OK') {
 5 === 5 // this is true 
 3 == '3' // this is true since it is not strict and it coerces the string to a number.
 (8 && 7 ) || !3   
+// question 4
+let value = Number(prompt('provide a value',));
+if (value % 2 === 0 || value > 10 ) {
+    alert('even and large');
+} else if (value % 2 === 0 || value < 10) {
+    alert('even but small');
+} else alert('odd number');
+let result = alert(value)
