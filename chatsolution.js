@@ -63,3 +63,11 @@ function checkNumber(value) {
     return 'negative';
  }else return 'zero';
 }
+let checkNumberArrow = n => {
+   if (n > 0 ) {
+    return 'positive';
+ } else if (n < 0) {
+    return 'negative';
+ }else return 'zero'; 
+}  
+alert(checkNumberArrow)
