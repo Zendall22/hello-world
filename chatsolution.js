@@ -71,3 +71,6 @@ let checkNumberArrow = n => {
  }else return 'zero'; 
 }  
 alert(checkNumberArrow)
+// question 8
+// it is important to put semicolons and use curly bracets around code to keep it neat and well formatted since code can spread over multiple lines and it is important that it easy to understand 
+// the use strict mode is important because it allows old code to be compatible with new code.
