@@ -14,4 +14,4 @@ if (confirm == 'OK') {
 // question 3
 5 === 5 // this is true 
 3 == '3' // this is true since it is not strict and it coerces the string to a number.
-(8 || 7 && 3 )  
+(8 && 7 ) || !3   
