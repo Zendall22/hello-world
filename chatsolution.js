@@ -36,3 +36,22 @@ for (let f = 0 ; f > 11 ; f ++ ) {
     if (f === 5) continue ;
     alert(f);
 }
+//question 5.4 ??
+// question 6
+switch (colour) {
+    case 'red':
+        alert('bold') ;
+        break ;
+    case 'blue':
+        alert('cool') ;
+        break ;
+    case 'yellow' :
+        alert('bright');
+        break ;
+    case 'green' :
+        alert('fresh');
+        break ;
+    default :
+    alert('intresting choice');
+    
+}// not usually used in production code
